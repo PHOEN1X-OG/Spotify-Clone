@@ -1,0 +1,706 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainsite {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 87vh;
+    background-color: black;
+    margin: 5px;
+    border-radius: 15px;
+    resize: horizontal;
+}
+
+.lefttop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(18, 18, 18);
+    margin: 2px ;
+    height: 15vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.lefttop div{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 3px 25px;
+}
+
+.lefttop li{
+    background-color: rgb(18, 18, 18);
+    padding: 10px 5px;
+    font-size: 16px;
+    color: rgb(210, 210, 210);
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lefttop li:hover{
+    color: white;
+}
+
+.lefttop img{
+    background-color: transparent;
+    height: 22px;
+    width: 22px;
+    margin: 10px 15px 10px 0px;
+}
+
+.leftbottom {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    margin: 5px 2px;
+    height: 72vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.leftbottom .nav1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0px;
+    background-color: transparent;
+}
+
+.buttons{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+}
+
+.buttons h1{
+    background-color: transparent;
+    padding: 0px 10px;
+    font-size: 25px;
+    color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+
+.buttons h1:hover{
+    color: white;
+}
+
+.library{
+    display: flex;
+    align-items: center;
+    background-color: transparent; 
+    padding-left: 10%;
+}
+
+.leftbottom h2{
+    background-color: transparent;
+    padding: 10px 5px;
+    font-size: 18px;
+    color: rgb(210, 210, 210);
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.leftbottom h2:hover{
+    color: white;
+}
+
+.leftbottom img{
+    background-color: transparent;
+    height: 22px;
+    width: 22px;
+    margin: 10px 10px 10px 0px;
+}
+
+.leftbottom .nav2 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: transparent;
+}
+
+.leftbottom .nav2 p{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.leftbottom p:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.scrollable{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    background-color: rgb(18, 18, 18);
+    overflow-y: auto;
+    scrollbar-color: rgb(38, 38, 38) rgb(18, 18, 18);
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav3 h3{
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(210, 210, 210);
+}
+
+.nav3 h3:hover{
+    font-weight: 600;
+    color: white;
+}
+
+.playlists{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.minicard{
+    display: flex;
+    background-color: transparent;
+    height: 48px;
+    padding: 8px;
+    align-items: center;
+}
+
+.playlists:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.minicard img{
+    height: 48px;
+    width: 48px;
+    border-radius: 5px;
+}
+
+.minicard div{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.minicard div h3{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.minicard div h4{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    cursor: default;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 87vh;
+    background-color: rgb(18, 18, 18);
+    margin: 7px 0px 10px 5px;
+    border-radius: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: rgb(38, 38, 38) rgb(18, 18, 18);
+    resize: horizontal;
+}
+
+.center .nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    position: sticky;
+    top: 0px;
+}
+
+.center .nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin: 15px 20px 10px 20px;
+}
+
+.center .nav1 .navleft{
+    background-color: transparent;
+}
+
+.center .nav1 .navright{
+    background-color: transparent;
+}
+
+.center .nav1 img{
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+.center .nav2{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin: 5px 20px 20px 20px;
+}
+
+.center .nav2 p{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    height: 30px;
+    padding: 1px 12px;
+    margin: 0px 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.center .nav2 p:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.center .playlists{
+    padding: 0px 20px 20px 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.center .col1, .center .col2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+}
+
+.center .centercard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 5px;
+}
+
+.center .centercard:hover{
+    background-color: rgb(38, 38, 38);
+}
+
+.center .centercard .info{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.center .centercard .play{
+    background-color: transparent;
+}
+
+#greenplaybutton{
+    float: right;
+    background-color: rgb(0, 170, 0);
+    height: 16px;
+    width: 16px;
+    padding: 10px;
+    margin-right: 5px ;
+    border-radius: 18px;
+}
+
+.center .playlists img{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    padding-right: 5px;
+    background-color: transparent;
+}
+
+.center .playlists p{
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.center .cardlist{
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.center .cardlist .collectionname{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+}
+
+.collectionname p{
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(210, 210, 210);
+}
+
+.collectionname p:hover{
+    color: white;
+}
+
+.collectionname h3{
+    background-color: transparent;
+    font-size: 23px;
+}
+
+.center .cardlist .cards{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+.center .card{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.center .card:hover{
+    background-color: rgb(38, 38, 38);
+}
+
+.center .card img{
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.center .card h5{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: default;
+    padding: 3px 0px;
+}
+
+.center .card p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(210, 210, 210);
+    background-color: transparent;
+    cursor: default;
+    padding: 3px 0px;
+}
+
+.center .card p:hover{
+    color: white;
+}
+
+.center .card .details{
+    background-color: transparent;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 220px;
+    max-width: 450px;
+    height: 87vh;
+    background-color: rgb(18, 18, 18);
+    margin: 7px;
+    border-radius: 15px;
+    overflow-y: auto;
+    scrollbar-color: rgb(38, 38, 38) rgb(18, 18, 18);
+    resize: horizontal;
+}
+
+.right .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.right .nav .listname{
+    font-size: 17px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.right .nav .icons{
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.right .nav .icons p{
+    background-color: transparent;
+    padding: 0 15px;
+    color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+
+.right .nav .icons p:hover{
+    color: white;
+}
+
+.right .nav img{
+    height: 20px;
+    width: 20px;
+}
+
+.right .card{
+    margin: 5px 15px;
+    background-color: transparent;
+}
+
+.right .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right .card h2{
+    width: 100%;
+    background-color: transparent;
+}
+
+.right .card p{
+    width: 100%;
+    background-color: transparent;
+}
+
+.right .credits{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(28, 28, 28);
+}
+
+.right .credits .heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.right .heading h5{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.right .heading p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(210, 210, 210);
+    background-color: transparent;
+}
+
+.right .heading p:hover{
+    color: white;
+}
+
+.right .artists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.right .artists .details{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 12px 0px;
+}
+
+.right .artists .details h4{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    padding-bottom: 4px;
+}
+
+.right .artists .details p{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    color: rgb(210, 210, 210);
+}
+
+.right .artists .follow{
+    background-color: transparent;
+}
+
+.right .artists .follow p{
+    border: 1px solid rgb(210, 210, 210);
+    padding: 5px 10px;
+    border-radius: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    cursor: default;
+}
+
+.right .artists .follow p:hover{
+    border: 1px solid white;
+    font-weight: 700;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: vw;
+    height: 10vh;
+    background-color: black;
+    /* border: 2px solid red; */
+    position: sticky;
+    bottom: 0;
+}
+
+.player .songdetails{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+}
+
+.player .songdetails img{
+    height: 60px;
+    width: 60px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.player .details{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.player .details h5{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.player .details p{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: transparent;
+    color: rgb(180, 180, 180);
+}
+
+.player .mainplayer{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player .mainplayer .controls{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.player .mainplayer img{
+    margin: 0px 15px;
+}
+
+.player .mainplayer #play{
+    height: 16px;
+    width: 16px;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: white;
+}
+
+.player .seekbar{
+    display: flex;
+    width: 100%;
+}
+
+.player .playbar{
+    width: 100%;
+    height: 4px;
+    
+    background-color: grey;
+    border-radius: 2px;
+}
+
+.player .seekbar .duration, .player .seekbar .currenttime{
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: 7px;
+    margin: 0px 5px;
+}
+
+.player .playbar .circle{
+    height: 8px;
+    border-radius: 4px;
+    width: 8px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 2px;
+    left: 0%;
+    transition: left 0.75s;
+}
+
+.player .extraoptions{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

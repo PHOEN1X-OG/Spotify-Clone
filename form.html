@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+    href="style1.css">
+    <title>Paisaleda?</title>
+</head>
+<body>
+    <form action="">
+        <container>
+        <h2>Urgent gaa paisal eyy</h2>
+    </container>
+        <h4>*Mandatory fields</h4>
+        <h3>Evaru nuvvu?</h3>
+        <p>PERU* : <input type="text" name="name" required></p>
+        <p> <fieldset>
+            <Legend>Gender* :</Legend>
+            BOII <input type="radio" name="Gender" id="male" required> GURL <input type="radio" name="Gender" id="female" required>
+        </fieldset>
+        </p>
+
+        <p>
+            <h3>Address</h3>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <h3>Email</h3>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <h2>Details kottu mowa</h2>
+
+        <p>Em card?*
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a card type--</option>
+                <option value="rupay">RUPAY</option>
+                <option value="visa">VISA</option>
+                <option value="master">MASRER CARD</option>
+
+            </select>
+        </p>
+
+        <p>Card number* :
+            <input type="number" name="card_number" id="card_number" required>
+        </p>
+
+        <p>Expiry date* :
+            <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+
+        <p>CVV* :
+            <input type="password" name="cvv" id="cvv" required>
+        </p>
+
+        <input type="submit" value="Katteyy">
+        <h4>Motham kottaka pothe submit avvadhu</h4>
+
+    </form>
+</body>
+</html>
